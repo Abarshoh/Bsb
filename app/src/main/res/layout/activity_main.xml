@@ -17,53 +17,51 @@
 
 
 
-        <com.google.android.material.button.MaterialButton
-            android:layout_width="330dp"
-            android:layout_height="49dp"
-            app:cornerRadius="10dp"
-            app:icon="@drawable/search"
-            app:iconTint="#535151"
-            android:hint="Fried Rice"
-            android:textColorHint="#535151"
-            android:gravity=""
-            android:layout_marginStart="10dp"
-            android:paddingStart="20dp"
-            android:backgroundTint="@color/white"
-            android:layout_marginTop="50dp">
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            android:layout_width="330dp"-->
+<!--            android:layout_height="49dp"-->
+<!--            app:cornerRadius="10dp"-->
+<!--            app:icon="@drawable/search"-->
+<!--            app:iconTint="#535151"-->
+<!--            android:hint="Fried Rice"-->
+<!--            android:textColorHint="#535151"-->
+<!--            android:gravity=""-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:paddingStart="20dp"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:layout_marginTop="50dp">-->
 
-        </com.google.android.material.button.MaterialButton>
+<!--        </com.google.android.material.button.MaterialButton>-->
 
 
-<!--        <com.google.android.material.textfield.TextInputLayout-->
-<!--        android:layout_width="330dp"-->
-<!--        android:layout_height="60dp"-->
-<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
-<!--        android:hint="Fried Rice"-->
-<!--        app:boxCornerRadiusBottomEnd="15dp"-->
-<!--        app:boxCornerRadiusBottomStart="15dp"-->
-<!--        app:boxCornerRadiusTopEnd="15dp"-->
-<!--        app:boxCornerRadiusTopStart="15dp"-->
-<!--        app:boxStrokeColor="#435B71"-->
-<!--        app:boxStrokeWidth="2dp"-->
-<!--            android:layout_marginStart="5dp"-->
-<!--        android:layout_marginTop="50dp"-->
-<!--        app:boxStrokeWidthFocused="2dp"-->
-<!--            app:endIconMode="custom"-->
-<!--        app:startIconDrawable="@drawable/search"-->
-<!--            android:layout_weight="1">-->
+        <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Fried Rice"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:boxStrokeColor="#435B71"
+        app:boxStrokeWidth="2dp"
+        app:boxBackgroundColor="@color/white"
+            android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+            app:endIconMode="custom"
+        app:startIconDrawable="@drawable/search"
+            android:layout_weight="1">
 
-<!--        <com.google.android.material.textfield.TextInputEditText-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:background="@color/white"-->
-<!--            android:backgroundTint="@color/white"/>-->
-<!--    </com.google.android.material.textfield.TextInputLayout>-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="49dp"
             android:src="@drawable/torch"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="55dp"
             android:layout_marginStart="10dp"/>
 
     </LinearLayout>
